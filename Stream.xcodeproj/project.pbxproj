@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A1C55931BECE19B006EC3F7 /* Stream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1C55891BECE19A006EC3F7 /* Stream.framework */; };
-		B0AC55C41C0FACF500160D79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AC55BE1C0FACF500160D79 /* Info.plist */; };
-		B0AC55C51C0FACF500160D79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AC55BE1C0FACF500160D79 /* Info.plist */; };
-		B0AC55C61C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; };
-		B0AC55C71C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; };
+		B0440BED1C0FB49D00EBD98C /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C31C0FACF500160D79 /* StreamTests.swift */; };
+		B0440BEE1C0FB49E00EBD98C /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C31C0FACF500160D79 /* StreamTests.swift */; };
+		B0AC55C61C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0AC55C71C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC55C81C0FACF500160D79 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C01C0FACF500160D79 /* Stream.swift */; };
 		B0AC55C91C0FACF500160D79 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C01C0FACF500160D79 /* Stream.swift */; };
-		B0AC55CA1C0FACF500160D79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AC55C21C0FACF500160D79 /* Info.plist */; };
-		B0AC55CB1C0FACF500160D79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AC55C21C0FACF500160D79 /* Info.plist */; };
-		B0AC55CC1C0FACF500160D79 /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C31C0FACF500160D79 /* StreamTests.swift */; };
-		B0AC55CD1C0FACF500160D79 /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C31C0FACF500160D79 /* StreamTests.swift */; };
 		B0D5217B1BE4F753002063D5 /* Stream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D521701BE4F753002063D5 /* Stream.framework */; };
 /* End PBXBuildFile section */
 
@@ -266,8 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC55CB1C0FACF500160D79 /* Info.plist in Resources */,
-				B0AC55C51C0FACF500160D79 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC55CA1C0FACF500160D79 /* Info.plist in Resources */,
-				B0AC55C41C0FACF500160D79 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0AC55C91C0FACF500160D79 /* Stream.swift in Sources */,
-				B0AC55CD1C0FACF500160D79 /* StreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0440BEE1C0FB49E00EBD98C /* StreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0AC55C81C0FACF500160D79 /* Stream.swift in Sources */,
-				B0AC55CC1C0FACF500160D79 /* StreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0440BED1C0FB49D00EBD98C /* StreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
