@@ -23,8 +23,7 @@
 // SOFTWARE.
 
 public protocol StreamType {
-    typealias Data
     func close()
-    func receive(completion: (Void throws -> Data) -> Void)
-    func send(data: Data, completion: (Void throws -> Void) -> Void)
+    func receive(completion: (Void throws -> [Int8]) -> Void)
+    func send(data: [Int8], completion: (Void throws -> Void) -> Void)
 }
