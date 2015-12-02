@@ -22,7 +22,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-public protocol Stream {
+public protocol StreamType {
     typealias Data
     func close()
     func receive(completion: (Void throws -> Data) -> Void)
