@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A1C55931BECE19B006EC3F7 /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1C55891BECE19A006EC3F7 /* URI.framework */; };
+		3A1C55931BECE19B006EC3F7 /* Stream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1C55891BECE19A006EC3F7 /* Stream.framework */; };
 		B0AC55C41C0FACF500160D79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AC55BE1C0FACF500160D79 /* Info.plist */; };
 		B0AC55C51C0FACF500160D79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AC55BE1C0FACF500160D79 /* Info.plist */; };
 		B0AC55C61C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; };
@@ -39,15 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A1C55891BECE19A006EC3F7 /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A1C55921BECE19A006EC3F7 /* Stream.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stream.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1C55891BECE19A006EC3F7 /* Stream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1C55921BECE19A006EC3F7 /* StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AC55BE1C0FACF500160D79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0AC55BF1C0FACF500160D79 /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
 		B0AC55C01C0FACF500160D79 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
 		B0AC55C21C0FACF500160D79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0AC55C31C0FACF500160D79 /* StreamTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamTests.swift; sourceTree = "<group>"; };
 		B0D521701BE4F753002063D5 /* Stream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0D5217A1BE4F753002063D5 /* Stream.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stream.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D5217A1BE4F753002063D5 /* StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1C55931BECE19B006EC3F7 /* URI.framework in Frameworks */,
+				3A1C55931BECE19B006EC3F7 /* Stream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,9 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				B0D521701BE4F753002063D5 /* Stream.framework */,
-				B0D5217A1BE4F753002063D5 /* Stream.xctest */,
-				3A1C55891BECE19A006EC3F7 /* URI.framework */,
-				3A1C55921BECE19A006EC3F7 /* Stream.xctest */,
+				B0D5217A1BE4F753002063D5 /* StreamTests.xctest */,
+				3A1C55891BECE19A006EC3F7 /* Stream.framework */,
+				3A1C55921BECE19A006EC3F7 /* StreamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			);
 			name = "Stream iOS";
 			productName = "Aeon iOS";
-			productReference = 3A1C55891BECE19A006EC3F7 /* URI.framework */;
+			productReference = 3A1C55891BECE19A006EC3F7 /* Stream.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3A1C55911BECE19A006EC3F7 /* Stream iOS Tests */ = {
@@ -178,7 +178,7 @@
 			);
 			name = "Stream iOS Tests";
 			productName = "Aeon iOSTests";
-			productReference = 3A1C55921BECE19A006EC3F7 /* Stream.xctest */;
+			productReference = 3A1C55921BECE19A006EC3F7 /* StreamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B0D5216F1BE4F753002063D5 /* Stream OSX */ = {
@@ -214,7 +214,7 @@
 			);
 			name = "Stream OSX Tests";
 			productName = AeonTests;
-			productReference = B0D5217A1BE4F753002063D5 /* Stream.xctest */;
+			productReference = B0D5217A1BE4F753002063D5 /* StreamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
