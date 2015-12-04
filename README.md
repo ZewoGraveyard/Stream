@@ -1,20 +1,28 @@
 Stream
 ======
 
-[![Swift 2.1](https://img.shields.io/badge/Swift-2.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![Platforms OS X | iOS](https://img.shields.io/badge/Platforms-OS%20X%20%7C%20iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platforms OS X | iOS | Linux](https://img.shields.io/badge/Platforms-OS%20X%20%7C%20iOS%20%7C%20Linux-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
 [![Cocoapods Compatible](https://img.shields.io/badge/Cocoapods-Compatible-4BC51D.svg?style=flat)](https://cocoapods.org/pods/Venice)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-Compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](https://zewo-slackin.herokuapp.com)
 
-**Stream** provides a stream protocol for **Swift 2**.
-
-## Features
-
-- [x] No `Foundation` dependency (**Linux ready**)
+**Stream** provides a stream protocol for **Swift 2.2**.
 
 ## Installation
+
+### Swift Package Manager
+
+```swift
+import PackageDescription
+
+let package = Package(
+    dependencies: [
+        .Package(url: "https://github.com/Zewo/Stream.git", majorVersion: 0, minor: 1)
+    ]
+)
+```
 
 ### CocoaPods
 
