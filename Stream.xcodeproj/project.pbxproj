@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A1C55931BECE19B006EC3F7 /* Stream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1C55891BECE19A006EC3F7 /* Stream.framework */; };
-		B0440BED1C0FB49D00EBD98C /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C31C0FACF500160D79 /* StreamTests.swift */; };
-		B0440BEE1C0FB49E00EBD98C /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C31C0FACF500160D79 /* StreamTests.swift */; };
-		B0AC55C61C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0AC55C71C0FACF500160D79 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AC55BF1C0FACF500160D79 /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0AC55C81C0FACF500160D79 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C01C0FACF500160D79 /* Stream.swift */; };
-		B0AC55C91C0FACF500160D79 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC55C01C0FACF500160D79 /* Stream.swift */; };
+		B04C2F811C112E7600B90602 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C2F7D1C112E5D00B90602 /* Stream.swift */; };
+		B04C2F821C112E7600B90602 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C2F7D1C112E5D00B90602 /* Stream.swift */; };
+		B04C2F831C112E7B00B90602 /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C2F801C112E5D00B90602 /* StreamTests.swift */; };
+		B04C2F841C112E7B00B90602 /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C2F801C112E5D00B90602 /* StreamTests.swift */; };
+		B04C2F851C112E8800B90602 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B04C2F7C1C112E5D00B90602 /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04C2F861C112E9000B90602 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B04C2F7C1C112E5D00B90602 /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0D5217B1BE4F753002063D5 /* Stream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D521701BE4F753002063D5 /* Stream.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +37,9 @@
 /* Begin PBXFileReference section */
 		3A1C55891BECE19A006EC3F7 /* Stream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1C55921BECE19A006EC3F7 /* StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0AC55BE1C0FACF500160D79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0AC55BF1C0FACF500160D79 /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
-		B0AC55C01C0FACF500160D79 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
-		B0AC55C21C0FACF500160D79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0AC55C31C0FACF500160D79 /* StreamTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamTests.swift; sourceTree = "<group>"; };
+		B04C2F7C1C112E5D00B90602 /* Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		B04C2F7D1C112E5D00B90602 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		B04C2F801C112E5D00B90602 /* StreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamTests.swift; sourceTree = "<group>"; };
 		B0D521701BE4F753002063D5 /* Stream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D5217A1BE4F753002063D5 /* StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,30 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0AC55BD1C0FACF500160D79 /* Stream */ = {
+		B04C2F7A1C112E5D00B90602 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				B0AC55BE1C0FACF500160D79 /* Info.plist */,
-				B0AC55BF1C0FACF500160D79 /* Stream.h */,
-				B0AC55C01C0FACF500160D79 /* Stream.swift */,
+				B04C2F7C1C112E5D00B90602 /* Stream.h */,
+				B04C2F7D1C112E5D00B90602 /* Stream.swift */,
 			);
-			path = Stream;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		B0AC55C11C0FACF500160D79 /* Stream Tests */ = {
+		B04C2F7E1C112E5D00B90602 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B0AC55C21C0FACF500160D79 /* Info.plist */,
-				B0AC55C31C0FACF500160D79 /* StreamTests.swift */,
+				B04C2F801C112E5D00B90602 /* StreamTests.swift */,
 			);
-			path = "Stream Tests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		B0D521661BE4F753002063D5 = {
 			isa = PBXGroup;
 			children = (
-				B0AC55BD1C0FACF500160D79 /* Stream */,
-				B0AC55C11C0FACF500160D79 /* Stream Tests */,
+				B04C2F7A1C112E5D00B90602 /* Sources */,
+				B04C2F7E1C112E5D00B90602 /* Tests */,
 				B0D521711BE4F753002063D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,7 +122,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC55C71C0FACF500160D79 /* Stream.h in Headers */,
+				B04C2F851C112E8800B90602 /* Stream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +130,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC55C61C0FACF500160D79 /* Stream.h in Headers */,
+				B04C2F861C112E9000B90602 /* Stream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC55C91C0FACF500160D79 /* Stream.swift in Sources */,
+				B04C2F821C112E7600B90602 /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0440BEE1C0FB49E00EBD98C /* StreamTests.swift in Sources */,
+				B04C2F841C112E7B00B90602 /* StreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC55C81C0FACF500160D79 /* Stream.swift in Sources */,
+				B04C2F811C112E7600B90602 /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0440BED1C0FB49D00EBD98C /* StreamTests.swift in Sources */,
+				B04C2F831C112E7B00B90602 /* StreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +342,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Stream/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -367,7 +363,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Stream/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -386,7 +382,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Stream Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.StreamTests;
@@ -401,7 +397,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Stream Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.StreamTests;
@@ -510,7 +506,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Stream/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -533,7 +529,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Stream/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -550,7 +546,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Stream Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.StreamTests;
 				PRODUCT_NAME = StreamTests;
@@ -563,7 +559,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Stream Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.StreamTests;
 				PRODUCT_NAME = StreamTests;
