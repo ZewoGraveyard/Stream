@@ -28,14 +28,22 @@ public enum StreamError: ErrorType {
     case ClosedStream(data: Data)
 }
 
-public protocol StreamType {
+public protocol ReceiveStreamType {
+    var metadata: [String: Any] { get }
+    var closed: Bool { get }
+    func close() -> Bool
+    func receive() throws -> Data
+}
+
+public protocol SendStreamType {
     var metadata: [String: Any] { get }
     var closed: Bool { get }
     func close() -> Bool
     func send(data: Data) throws
     func flush() throws
-    func receive() throws -> Data
 }
+
+public protocol StreamType: ReceiveStreamType, SendStreamType {}
 
 public protocol StreamClientType {
     func connect() throws -> StreamType
