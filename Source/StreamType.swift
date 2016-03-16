@@ -24,7 +24,7 @@
 
 @_exported import Data
 
-public enum StreamError: ErrorType {
+public enum StreamError: ErrorProtocol {
     case ClosedStream(data: Data)
 }
 
